@@ -12,6 +12,10 @@
   text-decoration: none;
 }
 
+.link-projetos:hover {
+  color: #4169e1;
+}
+
 .lista-projetos {
   border: 1px solid var(--cor-6);
   margin: 0 0 2em 0;

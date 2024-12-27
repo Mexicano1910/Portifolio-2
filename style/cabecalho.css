@@ -46,7 +46,7 @@ header ul li a {
 }
 
 header ul li a:hover {
-  color: #800000;
+  color: #4169e1;
 }
 
 .btn__contato button {
@@ -56,13 +56,13 @@ header ul li a:hover {
   font-family: var(--font-2);
   border: 0;
   background-color: var(--cor-6);
-  color: var(--cor-1);
+  color: var(--cor-2);
   cursor: pointer;
   transition: 0.2s;
 }
 
 .btn__contato:hover button {
-  background-color: #800000;
+  background-color: #4169e1;
 }
 
 @media (max-width: 768px) {
