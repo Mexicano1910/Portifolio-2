@@ -1,0 +1,143 @@
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link-projetos {
+  font-size: 1.375rem;
+  font-family: var(--font-2);
+  padding: 0;
+  color: var(--cor-6);
+  text-decoration: none;
+}
+
+.lista-projetos {
+  border: 1px solid var(--cor-6);
+  margin: 0 0 2em 0;
+  padding: 1em;
+}
+
+.lista-projetos-1 {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.lista-projetos-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lista {
+  list-style-type: none;
+}
+
+.paragrafos-projetos {
+  font-size: 1rem;
+  font-family: var(--font-2);
+  color: var(--cor-1);
+  line-height: 1.2em;
+  margin: 0.5em 0 0 0;
+}
+
+.img-jogoNumeroSecreto {
+  width: 70px;
+  height: 70px;
+}
+
+.img-essencia {
+  width: 85px;
+  height: 60px;
+}
+
+.img-girassol {
+  width: 60px;
+  height: 60px;
+}
+
+.img-corinthians {
+  width: 90px;
+  height: 90px;
+}
+
+.alura-combo {
+  width: 125px;
+  height: 70px;
+}
+
+.Alura-Logo-book {
+  width: 50px;
+  height: 50px;
+  padding-right: 1.5em;
+}
+
+.img-optimus {
+  width: 60px;
+  height: 60px;
+}
+
+@media (max-width: 768px) {
+  .projetos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lista-projetos {
+    border: 1px solid var(--cor-6);
+  }
+
+  .lista-projetos-2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .img-jogoNumeroSecreto {
+    padding-top: 0.8em;
+    padding-right: 0;
+    width: 90px;
+    height: 90px;
+  }
+
+  .img-essencia {
+    padding-top: 0.8em;
+    padding-right: 0;
+    width: 100px;
+    height: 80px;
+  }
+
+  .img-girassol {
+    padding-top: 0.8em;
+    padding-right: 0;
+    width: 70px;
+    height: 70px;
+  }
+
+  .img-corinthians {
+    padding-top: 0.8em;
+    padding-right: 0;
+    width: 115px;
+    height: 110px;
+  }
+
+  .alura-combo {
+    padding-top: 0.8em;
+    padding-right: 0;
+    width: 125px;
+    height: 70px;
+  }
+
+  .Alura-Logo-book {
+    padding-top: 0.8em;
+    padding-right: 0;
+    width: 55px;
+    height: 55px;
+  }
+
+  .img-optimus {
+    padding-top: 0.8em;
+    padding-right: 0;
+    width: 50px;
+    height: 50px;
+  }
+}

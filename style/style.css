@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("cabecalho.css");
+@import url("apresentacao.css");
+@import url("sobreMim.css");
+@import url("projetosTextos.css");
+@import url("projetos.css");
+@import url("contatos.css");
+@import url("rodape.css");
+
+:root {
+  --cor-1: #ffffff;
+  --cor-2: #000000;
+  --cor-3: #4f4f4f;
+  --cor-4: #808080;
+  --cor-5: #d3d3d3;
+  --cor-6: #da291c;
+  --font-1: "Signika", sans-serif;
+  --font-2: "Alegreya", sans-serif;
+}
+
+body {
+  background-color: var(--cor-2);
+}
+
+.corpo {
+  margin-top: 6em;
+}

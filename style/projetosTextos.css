@@ -1,0 +1,46 @@
+.projetos-textos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.titulo-projetos {
+  font-size: 3.75rem;
+  font-family: var(--font-1);
+  color: var(--cor-6);
+  padding: 0 0em 0.5em 0.3em;
+}
+
+.paragrafo-projetos-1,
+.paragrafo-projetos-2,
+.paragrafo-projetos-3 {
+  font-size: 1.375rem;
+  font-family: var(--font-2);
+  color: var(--cor-1);
+  line-height: 1.2em;
+  padding: 1em 10em;
+}
+
+@media (max-width: 768px) {
+  .paragrafo-projetos-1,
+  .paragrafo-projetos-2,
+  .paragrafo-projetos-3 {
+    padding-right: 2em;
+  }
+
+  .paragrafo-projetos-1,
+  .paragrafo-projetos-3 {
+    padding-left: 1em;
+  }
+
+  .paragrafo-projetos-2 {
+    padding: 1em;
+  }
+
+  .paragrafo-projetos-1,
+  .paragrafo-projetos-2,
+  .paragrafo-projetos-3 {
+    padding-right: 0;
+  }
+}

@@ -1,0 +1,74 @@
+.cabecalho {
+  width: 100%;
+  padding: 8px;
+  background-color: var(--cor-2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+
+.cabecalho__1 {
+  margin: auto;
+  font-size: 1.0625rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header.rolagem {
+  background-color: var(--cor-5);
+}
+
+header.rolagem a {
+  color: var(--cor-2);
+  font-size: 1.0625rem;
+  font-family: var(--font-2);
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header li {
+  display: inline-block;
+  margin: 0 40px;
+}
+
+header ul li a {
+  font-size: 1.0625rem;
+  font-family: var(--font-2);
+  color: var(--cor-1);
+  text-decoration: none;
+}
+
+header ul li a:hover {
+  color: #800000;
+}
+
+.btn__contato button {
+  width: 120px;
+  height: 40px;
+  font-size: 1.0625rem;
+  font-family: var(--font-2);
+  border: 0;
+  background-color: var(--cor-6);
+  color: var(--cor-1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn__contato:hover button {
+  background-color: #800000;
+}
+
+@media (max-width: 768px) {
+  .cabecalho {
+    padding: 8px;
+    position: fixed;
+    font-size: 1rem;
+  }
+}
